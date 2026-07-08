@@ -1,0 +1,4 @@
+
+javac -cp ".;lib/mysql.jar" -d out src/db/*.java src/model/*.java src/dao/*.java src/service/*.java src/ui/*.java src/main/*.java
+
+java -cp ".;out;lib/mysql.jar" main.MainApp
